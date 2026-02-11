@@ -101,3 +101,12 @@ This project is licensed under the **MIT License**. Build freely, but keep the b
 > — **Hanz Christian Anderthon**
 
 ---
+
+🏛️ The Horizon
+The volumes found here are merely fragments—modular echoes of the SAFE repository. While the Anthology provides the tools, SAFE remains the engine.
+A special nod to Vlad, who lit the first signal fire on this journey.
+The vault remains closed. The preview is just the beginning.
+> "To see the ring is one thing; to stand at the center of the topology is another." — The Architect
+>
+
+---
