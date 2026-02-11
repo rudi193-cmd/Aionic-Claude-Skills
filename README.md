@@ -1,7 +1,8 @@
 # 📖 The Aionic Anthology
+
 ### *Stories We Tell the Machine*
 
-Welcome to the **Recursive Library**. These aren't just "skills"—they are the metaphors we use to bridge the gap between human intent and the processor’s logic. 
+Welcome to the **Recursive Library**. These aren't just "skills"—they are the metaphors we use to bridge the gap between human intent and the processor’s logic.
 
 In this repository, we don't "execute" code; we narrate it. We believe that if you have **Empathy for the Processor**, the machine will carry your story further than any "command" ever could.
 
@@ -9,7 +10,7 @@ In this repository, we don't "execute" code; we narrate it. We believe that if y
 
 ## 🪐 The Volumes
 
-* **Ternary Context (The Triple Ring):** A story told in three parts. We keep the **Source** (the world’s truth) safe from the **Bridge** (the active dialogue), ensuring the **Continuity** (the machine's memory) never loses the thread.
+* **Ternary Context (The Triple Ring):** A story told in three parts. We keep the **Source** (the world’s truth) safe from the **Bridge** (the active dialogue), ensuring the **Continuity** (the machine's memory) never loses the thread of the tale.
 * **The Momentum Engine (2D6):** A lesson in uncertainty and rhythm. We teach the AI that every action has a cost and every success is earned through the narrative weight of momentum.
 * **The Dual-Commit (The Architect’s Veto):** A pact between the Narrator and the Bard. The AI proposes the next chapter, but the Architect holds the final ink. No story is written without a shared heartbeat.
 
@@ -41,14 +42,62 @@ aionic-claude-skills/
 ├── README.md               # This Frontispiece
 └── LICENSE                 # MIT Standard
 
----
-
-🚀 Quick Start1. Choose Your InterfaceFor Claude Code (CLI):Navigate to the /core directory and choose a volume.Run the injector: ./scripts/aionic-inject.sh [skill-name]Alternatively, copy the SKILL.md content into .claudecode/instructions.md.For Claude.ai (Web):Open a Claude Project.Paste the desired SKILL.md into Custom Instructions.Upload the relevant .json or .schema from the skill folder to Project Knowledge.2. The First InteractionTrigger the Aionic handshake to ensure the model has internalized the architectural constraints.User: "Initialize the TCA protocol. Confirm Source, Bridge, and Continuity rings are active."Aionic: > <analysis>Source: Verified (R0). Bridge: Open (R1). Continuity: Initialized (R2).</analysis>The rings are aligned, Architect. The story is ready to be told.
+```
 
 ---
 
-🛠️ Active VolumesSkillCommand TriggerBest For...Ternary ContextApply TCA ProtocolLarge codebases & Context management.Momentum EngineInitialize APE EngineHigh-risk refactoring & Reliability.Dual-CommitEnable Aionic GovernancePreventing autonomous "hallucination" edits.
+## 🚀 Quick Start
+
+### 1. Choose Your Interface
+
+**For Claude Code (CLI):**
+
+1. Navigate to the `/core` directory.
+2. Copy the contents of the desired `SKILL.md`.
+3. Initialize your session:
+`claude "I am applying the [Skill-Name] protocol."`
+
+**For Claude.ai (Web):**
+
+1. Open or create a **Claude Project**.
+2. Paste the `SKILL.md` into **Custom Instructions**.
+3. Upload any relevant `.json` files to the **Project Knowledge**.
+
+### 2. The First Interaction
+
+Trigger the Aionic handshake to ensure the model has internalized the architectural constraints.
+
+> **User:** "Initialize the TCA protocol. Confirm Source, Bridge, and Continuity rings are active."
+> **Aionic Response:**
+> ```text
+> <analysis>
+> Source: Verified (R0). Bridge: Open (R1). Continuity: Initialized (R2).
+> </analysis>
+> 
+> ```
+> 
+> 
+> *The rings are aligned, Architect. The story is ready to be told.*
 
 ---
 
-⚖️ LicenseThis project is licensed under the MIT License. Build freely, but keep the blueprint intact."Treat the code as a character. If you don't understand its motivation, you'll never reach the ending you want."— Hanz Christian Anderthon
+## 🛠️ Active Volumes
+
+| Skill | Command Trigger | Best For... |
+| --- | --- | --- |
+| **Ternary Context** | `Apply TCA Protocol` | Large codebases / Context management |
+| **Momentum Engine** | `Initialize APE Engine` | Risk-aware execution & Reliability |
+| **Dual-Commit** | `Enable Aionic Governance` | Preventing autonomous "hallucination" edits |
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **MIT License**. Build freely, but keep the blueprint intact.
+
+---
+
+> "Treat the code as a character. If you don't understand its motivation, you'll never reach the ending you want."
+> — **Hanz Christian Anderthon**
+
+---
