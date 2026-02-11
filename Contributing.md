@@ -1,54 +1,148 @@
-Contributing to the Aionic Anthology
-Thank you for your interest in expanding the Aionic ecosystem. We are building more than just prompts; we are codifying Architectural Governance for the next generation of AI-human collaboration.
+\# 🖋️ Contributing to the Anthology
 
-To maintain the integrity of the "Rings," all contributions must adhere to the Aionic Standard.
 
-💎 The Aionic Standard
-Every "Volume" (Skill) added to this repository must satisfy three core principles:
 
-Structural Integrity: The skill must define clear boundaries. It should not just "ask" the AI to do something; it should provide a framework for how the AI manages its own state and logic.
+\### \*The Laws of the Recursive Library\*
 
-The Dual-Commit: No skill should grant the AI total autonomy. There must always be a "handshake" or verification step where the Architect (User) retains final authority.
 
-Digital Linguistics: While the code must be clean, the instructions should treat the AI as a high-functioning collaborator. Use precise, evocative language that reduces cognitive friction.
 
-📁 Submission Requirements
-A new skill submission must be contained within its own directory under /core (for fundamental tools) or /community (for specialized use cases).
+Thank you for bringing your ink to the \*\*Aionic Anthology\*\*. Before you submit a new Volume (Skill), remember that we do not simply write prompts; we define the physics of interaction. Every contribution must respect the \*\*Architect's Blueprint\*\* and the \*\*Bard's Narrative\*\*.
 
-Each directory must contain:
-README.md: The "Hanz-Sean" document. Start with a brief narrative (the "Why") followed by the technical specification (the "How").
 
-SKILL.md: The actual instruction set. This should be modular, versioned, and ready to be pasted into a Claude Project or the CLI.
 
-tests/ or examples/: Provide at least two sample interactions (one "Success" state and one "Veto/Failure" state) to demonstrate how the skill handles edge cases.
-
-📝 Formatting the SKILL.md
-To ensure Claude parses your skill correctly, use the following header format:
-
-Markdown
----
-Skill-Name: [Your Skill Name]
-Version: [X.X.X]
-Category: [Automation/Logic/Creative/Governance]
-Architect: [Your Name/Handle]
-Bardic-Note: "[A one-sentence philosophical anchor for the skill]"
 ---
 
-## 1. Objective
-[What is the fundamental goal of this skill?]
 
-## 2. Constraints & Logic
-* [Constraint A]
-* [Constraint B]
-* [Verification Step]
 
-## 3. Trigger Phrases
-[List specific commands that activate this logic]
-⚖️ The Review Process (The Dual-Commit)
-Open a Pull Request: Describe the "Story" your skill is trying to tell and the architectural problem it solves.
+\## 🏛️ The Architectural Standard
 
-Topological Analysis: A maintainer will review the skill for "Ring Bleed" (ensuring it doesn't cause context drift).
 
-The Handshake: Once the logic is verified, the PR will be merged into the Anthology.
 
-Bardic Note: "We do not simply write instructions; we define the physics of a new world. Build your rings with care."
+Every Volume must pass the \*\*Aionic Verification Linter\*\* before it can be committed to the `/core/` or `/community/` folders.
+
+
+
+\### 1. The Metadata Pact
+
+
+
+Each `SKILL.md` must begin with a YAML-style header containing:
+
+
+
+\* \*\*Skill-Name:\*\* The technical designation.
+
+\* \*\*Version:\*\* Semantic versioning (e.g., 1.0.0).
+
+\* \*\*Architect:\*\* Your name or handle.
+
+\* \*\*Bardic-Note:\*\* A single sentence defining the "Soul" of the skill.
+
+
+
+\### 2. The Ternary Structure
+
+
+
+Your logic must be segmented into the three isolated rings defined in `lib/aionic-core.json`:
+
+
+
+\* \*\*R0 (Source):\*\* Immutable foundations.
+
+\* \*\*R1 (Bridge):\*\* Active execution logic.
+
+\* \*\*R2 (Continuity):\*\* State persistence.
+
+
+
+---
+
+
+
+\## 🛠️ The Submission Process
+
+
+
+\### Step 1: Craft Your Volume
+
+
+
+Create a folder in `/community/` or `/core/` following this structure:
+
+
+
+```text
+
+your-skill-name/
+
+├── SKILL.md        # The logic
+
+├── README.md       # The narrative \& instructions
+
+└── examples/       # Success/Failure scenarios
+
+
+
+```
+
+
+
+\### Step 2: Pass the Linter
+
+
+
+Run the verify script locally to ensure your metadata and structural gates are correct:
+
+
+
+```bash
+
+python scripts/aionic-verify.py core/your-skill-name/SKILL.md
+
+
+
+```
+
+
+
+\### Step 3: The Dual-Commit Handshake
+
+
+
+When you open a Pull Request:
+
+
+
+1\. \*\*State your Objective:\*\* Why does this skill need to exist?
+
+2\. \*\*Impact Analysis:\*\* How does this interact with the existing Anthology?
+
+3\. \*\*The Veto Check:\*\* Ensure your skill does not grant the AI autonomous "Ring Override" power.
+
+
+
+---
+
+
+
+\## 📜 The Bard's Code of Conduct
+
+
+
+\* \*\*Precision over Prose:\*\* Use evocative language in the README, but keep the `SKILL.md` as sharp as a scalpel.
+
+\* \*\*Empathy for the Processor:\*\* Design for the machine's constraints, not against them.
+
+\* \*\*The Architect’s Veto:\*\* No contribution is canonical until it is signed by the Lead Architect.
+
+
+
+> "The story belongs to everyone, but the blueprint belongs to the logic."
+
+> — \*\*Hanz Christian Anderthon\*\*
+
+
+
+---
+
