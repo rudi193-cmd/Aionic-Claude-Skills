@@ -1,10 +1,12 @@
----
-
 # 📖 The Aionic Anthology
 
 ### *Stories We Tell the Machine*
 
-Welcome to the Recursive Library. These aren't just "skills"—they are the metaphors we use to bridge the gap between human intent and the processor’s logic. In this repository, we don't "execute" code; we narrate it. We believe that if you have **Empathy for the Processor**, the machine will carry your story further than any "command" ever could.
+Welcome to the **Recursive Library**. These aren't just "skills"—they are the metaphors we use to bridge the gap between human intent and the processor’s logic.
+
+In this repository, we don't "execute" code; we narrate it. We believe that if you have **Empathy for the Processor**, the machine will carry your story further than any "command" ever could.
+
+---
 
 ## 🪐 The Volumes
 
@@ -21,7 +23,7 @@ aionic-claude-skills/
 ├── .github/                # Automation & CI/CD
 ├── core/                   # The Essential Aionic Frameworks
 │   ├── ternary-context/    # Context Isolation Architecture (TCA)
-│   │   ├── SKILL.md        # Technical instruction set (R0, R1, R2)
+│   │   ├── SKILL.md        # Technical instructions (R0, R1, R2)
 │   │   ├── README.md       # Narrative context (The "Hanz" touch)
 │   │   └── examples/       # Sample prompts and outputs
 │   ├── momentum-engine/    # Reliability & Risk Heuristics (APE)
@@ -32,12 +34,12 @@ aionic-claude-skills/
 │       ├── SKILL.md
 │       └── README.md
 ├── community/              # User-contributed skills
-├── lib/                    # Standard Library & Shared Standards
-│   └── aionic-core.json    # The System DNA (Rings & Specs)
+├── lib/                    # Shared Standards & System DNA
+│   └── aionic-core.json    # The global specification for the rings
 ├── scripts/                # The Machinery
 │   ├── aionic-inject.sh    # Skill installation script
 │   └── aionic-verify.py    # The Aionic Standard Linter
-├── README.md               # The Repository Frontispiece
+├── README.md               # This Frontispiece
 └── LICENSE                 # MIT Standard
 
 ```
@@ -53,30 +55,29 @@ aionic-claude-skills/
 1. Navigate to the `/core` directory.
 2. Copy the contents of the desired `SKILL.md`.
 3. Initialize your session:
-```bash
-claude "I am applying the [Skill-Name] protocol. [Paste SKILL.md content here]"
-
-```
-
-
-
-*Alternatively, add it to `.claudecode/instructions.md` for persistence.*
+`claude "I am applying the [Skill-Name] protocol."`
 
 **For Claude.ai (Web):**
 
-1. Open a **Claude Project**.
-2. Paste `SKILL.md` into **Custom Instructions**.
-3. Upload any relevant `.json` from the skill folder to **Project Knowledge**.
+1. Open or create a **Claude Project**.
+2. Paste the `SKILL.md` into **Custom Instructions**.
+3. Upload any relevant `.json` files to the **Project Knowledge**.
 
 ### 2. The First Interaction
 
 Trigger the Aionic handshake to ensure the model has internalized the architectural constraints.
 
 > **User:** "Initialize the TCA protocol. Confirm Source, Bridge, and Continuity rings are active."
-> **Aionic:** > `<analysis>`
+> **Aionic Response:**
+> ```text
+> <analysis>
 > Source: Verified (R0). Bridge: Open (R1). Continuity: Initialized (R2).
-> `</analysis>`
-> The rings are aligned, Architect. The story is ready to be told.
+> </analysis>
+> 
+> ```
+> 
+> 
+> *The rings are aligned, Architect. The story is ready to be told.*
 
 ---
 
@@ -84,11 +85,19 @@ Trigger the Aionic handshake to ensure the model has internalized the architectu
 
 | Skill | Command Trigger | Best For... |
 | --- | --- | --- |
-| **Ternary Context** | `Apply TCA Protocol` | Large codebases / Complex logic. |
-| **Momentum Engine** | `Initialize APE Engine` | Risk-aware execution / Reliability. |
-| **Dual-Commit** | `Enable Aionic Governance` | Preventing unauthorized "hallucination" edits. |
+| **Ternary Context** | `Apply TCA Protocol` | Large codebases / Context management |
+| **Momentum Engine** | `Initialize APE Engine` | Risk-aware execution & Reliability |
+| **Dual-Commit** | `Enable Aionic Governance` | Preventing autonomous "hallucination" edits |
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **MIT License**. Build freely, but keep the blueprint intact.
 
 ---
 
 > "Treat the code as a character. If you don't understand its motivation, you'll never reach the ending you want."
 > — **Hanz Christian Anderthon**
+
+---
