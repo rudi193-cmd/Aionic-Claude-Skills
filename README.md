@@ -40,3 +40,15 @@ aionic-claude-skills/
 │   └── aionic-verify.py    # The Aionic Standard Linter
 ├── README.md               # This Frontispiece
 └── LICENSE                 # MIT Standard
+
+---
+
+🚀 Quick Start1. Choose Your InterfaceFor Claude Code (CLI):Navigate to the /core directory and choose a volume.Run the injector: ./scripts/aionic-inject.sh [skill-name]Alternatively, copy the SKILL.md content into .claudecode/instructions.md.For Claude.ai (Web):Open a Claude Project.Paste the desired SKILL.md into Custom Instructions.Upload the relevant .json or .schema from the skill folder to Project Knowledge.2. The First InteractionTrigger the Aionic handshake to ensure the model has internalized the architectural constraints.User: "Initialize the TCA protocol. Confirm Source, Bridge, and Continuity rings are active."Aionic: > <analysis>Source: Verified (R0). Bridge: Open (R1). Continuity: Initialized (R2).</analysis>The rings are aligned, Architect. The story is ready to be told.
+
+---
+
+🛠️ Active VolumesSkillCommand TriggerBest For...Ternary ContextApply TCA ProtocolLarge codebases & Context management.Momentum EngineInitialize APE EngineHigh-risk refactoring & Reliability.Dual-CommitEnable Aionic GovernancePreventing autonomous "hallucination" edits.
+
+---
+
+⚖️ LicenseThis project is licensed under the MIT License. Build freely, but keep the blueprint intact."Treat the code as a character. If you don't understand its motivation, you'll never reach the ending you want."— Hanz Christian Anderthon
