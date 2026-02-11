@@ -1,0 +1,10 @@
+{
+  "repo_name": "Aionic Claude Skills",
+  "architect": "Sean Campbell",
+  "scripts": { "injector": "scripts/aionic-inject.sh", "linter": "scripts/aionic-verify.py" },
+  "frameworks": [
+    { "id": "ternary-context", "version": "1.0.5", "path": "core/ternary-context/SKILL.md" },
+    { "id": "momentum-engine", "version": "1.1.0", "path": "core/momentum-engine/SKILL.md" },
+    { "id": "dual-commit", "version": "1.0.0", "path": "core/dual-commit/SKILL.md" }
+  ]
+}

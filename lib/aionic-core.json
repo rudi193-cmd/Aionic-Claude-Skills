@@ -1,0 +1,5 @@
+{
+  "system": "Aionic Anthology",
+  "version": "1.0.0",
+  "ternary_rings": { "R0": "Source (RO)", "R1": "Bridge (RW)", "R2": "Continuity (State)" }
+}
