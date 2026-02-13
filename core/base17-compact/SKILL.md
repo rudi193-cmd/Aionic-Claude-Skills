@@ -1,0 +1,1 @@
+This document defines the **BASE 17 Compact Communication Skill**, designed for inter-agent communication where token reduction and efficiency are paramount. It leverages pre-shared context (via a database) and a
